@@ -23,7 +23,7 @@ class TasksController < ApplicationController
 
   def update
     task = Task.find(params[:id])
-    task.update!(taks_params)
+    task.update!(task_params)
     redirect_to tasks_url, notice: "タスク「#{task.name}」と更新しました。"
   end
 
