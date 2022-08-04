@@ -1,10 +1,15 @@
 # README
 
-- `bin/rails s`
-- `git branch -d ${ブランチ名}`
-- `git checkout -b ${作成するブランチ名}`
-- `git push -u origin ${作成したブランチ名}`
-- `git fetch --prune`
+- Rails
+    - `bin/rails s`
+    - `bin/rails c`
+    - `bin/rails db:migrate`
+
+- Git
+    - `git branch -d ${ブランチ名}`
+    - `git checkout -b ${作成するブランチ名}`
+    - `git push -u origin ${作成したブランチ名}`
+    - `git fetch --prune`
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
